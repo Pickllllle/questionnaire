@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box info-box">
+            <h1>Hi wellcome to my project</h1>
+            <h2>Please enter your name</h2>
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <div class="btn-group">
+                    <input type="button" value="Start" id="start">
+                </div>
+            </div>
+        </div>
+        <div class="box question-box">
+            <div class="info-user">
+                <h3>Dear <span id="info-user-name"></span></h3>
+                <div><span id="current_questions"></span> of <span id="number-of-question"></span></div>
+            </div>
+            <div>
+                <p class="questions-text"></p>
+                <textarea class="questions-answer" rows="8"></textarea>
+            </div>
+        
+            <div class="info-user">
+                <a class="btn" id="Previous">Previous</a>
+                <a class="btn" id="Next">Next</a>
+                <input type="button" value="Submit" id="Submit">
+            </div>
+            
+
+            
+        </div>
+        <div id="result">
+            <div class="btn-group">
+                <input type="button" value="Start" id="start-again">
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
